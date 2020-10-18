@@ -4,15 +4,24 @@ const octokit = new Octokit({ auth: dotEnv.parsed.ACCESS_TOKEN })
 
 const body = `refs:
 
-- https://github.com/inouetakuya/rest.js-playground`
+- https://github.com/inouetakuya/rest.js-playground`;
 
-octokit.issues.create({
-  owner: 'inouetakuya',
-  repo: 'rest.js-playground',
-  title: 'docs(ja): guides/concepts/context-helpers.md',
-  body: body,
-}).then(({ data }) => {
-  console.log(data)
-}).catch(error => {
-  console.log(error)
+([
+  'docs(ja): guides/concepts/nuxt-lifecycle.md',
+  'docs(ja): guides/concepts/server-side-rendering.md',
+  'docs(ja): guides/concepts/static-site-generation.md',
+  'docs(ja): guides/concepts/views.md',
+]).forEach((title) => {
+  octokit.issues.create({
+    owner: 'inouetakuya',
+    repo: 'rest.js-playground',
+    title,
+    body,
+    labels: ['help wanted'],
+  }).then(({ data }) => {
+    console.log(data)
+  }).catch(error => {
+    console.log(error)
+  })
 })
+
