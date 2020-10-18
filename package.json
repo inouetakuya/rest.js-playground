@@ -1,0 +1,11 @@
+{
+  "name": "rest.js-playground",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "repository": "ssh://git@github.com/inouetakuya/rest.js-playground.git",
+  "author": "INOUE Takuya <inouetakuya5@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^18.0.6"
+  }
+}
