@@ -59,10 +59,17 @@ const titles = [
   'docs(ja): guides/internals-glossary/nuxt-render-route.md',
 ]
 
-const body = `refs:
+const body = `## 日本語翻訳ガイド
 
-- https://github.com/vuejs-jp/ja.nuxtjs.org/wiki
-- https://github.com/vuejs-jp/ja.nuxtjs.org/issues/22`
+https://github.com/vuejs-jp/ja.nuxtjs.org/wiki
+
+## 備考
+
+https://github.com/nuxt/nuxtjs.org/tree/master/content/ja/api または https://ja.nuxtjs.org/api に類似のドキュメントがあるので、翻訳する際に参考にしてください。
+
+## 関連 Issue
+
+https://github.com/vuejs-jp/ja.nuxtjs.org/issues/22`
 
 titles.forEach((title) => {
   octokit.issues.create({
