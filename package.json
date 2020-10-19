@@ -12,6 +12,6 @@
     "typescript": "^4.0.3"
   },
   "scripts": {
-    "main": "node ./src/main.js"
+    "main": "ts-node ./src/main.ts"
   }
 }
