@@ -69,7 +69,8 @@ https://ja.nuxtjs.org/api（https://github.com/nuxt/nuxtjs.org/tree/master/conte
 
 ## 関連 Issue
 
-https://github.com/vuejs-jp/ja.nuxtjs.org/issues/22`
+- https://github.com/vuejs-jp/ja.nuxtjs.org/issues/22
+- https://github.com/nuxt/nuxtjs.org/issues/544`
 
 titles.forEach((title) => {
   octokit.issues.create({
