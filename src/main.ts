@@ -7,6 +7,7 @@ dotenv.config()
 const octokit = new Octokit({ auth: process.env.ACCESS_TOKEN })
 
 const titles = [
+  'docs(ja): guides/get-started/commands.md',
   'docs(ja): guides/components-glossary/pages-middleware.md',
   'docs(ja): guides/components-glossary/pages-scrolltotop.md',
   'docs(ja): guides/components-glossary/pages-transition.md',
