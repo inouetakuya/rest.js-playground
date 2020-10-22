@@ -65,7 +65,7 @@ https://github.com/vuejs-jp/ja.nuxtjs.org/wiki
 
 ## 備考
 
-https://github.com/nuxt/nuxtjs.org/tree/master/content/ja/api または https://ja.nuxtjs.org/api に類似のドキュメントがあるので、翻訳する際に参考にしてください。
+https://ja.nuxtjs.org/api（https://github.com/nuxt/nuxtjs.org/tree/master/content/ja/api）に類似のドキュメントがあるので、翻訳する際に参考にしてください。
 
 ## 関連 Issue
 
